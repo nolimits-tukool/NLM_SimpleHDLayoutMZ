@@ -1,0 +1,2 @@
+# NLM_SimpleHDLayoutMZ
+シンプルなHDレイアウトへ各種メニューを最適化
