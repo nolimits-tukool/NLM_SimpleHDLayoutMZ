@@ -9,7 +9,7 @@
 
 - メニュー画面：使い慣れた右縦コマンド欄に、アクター欄が2列のシンプルな構成（アクター縦人数は調整可）  
 - ステータス画面：従来型ステータス画面そのままに右側画像ウインドウを追加
-- アクター画像：「拡大顔画像」が標準で描画されますが、ActorPictures.js（「ベーシック＋HDレイアウト」で標準実装）併用で「立ち絵」を、[NLM_CardLayoutMZ.js](https://github.com/nolimits-tukool/NLM_CardLayoutMZ) 併用で「カード画」を、置き換えて描画できます
+- アクター画像：「拡大顔画像」が標準で描画されますが、ActorPictures.js（「ベーシック＋HDレイアウト」で標準実装）併用で「立ち絵」を、[NLM_CardLayoutMZ.js](https://github.com/nolimits-tukool/NLM_CardLayoutMZ) (v1.1以降)併用で「カード画」を、置き換えて描画できます
 
 ![HDメニュー](img/HDMenu.png)
 
