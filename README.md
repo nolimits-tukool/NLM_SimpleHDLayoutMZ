@@ -30,7 +30,8 @@
 - SVアクター間のX間隔・Y間隔の変更、前進距離の変更  
 - メッセージウインドウの幅変更の他に、選択肢をウインドウの端にそろえる機能
 
-コマンドの高さも変更したい場合は [MZ用コマンド行間設定プラグイン](https://github.com/nolimits-tukool/NLM_CommandHeightMZ) の併用をお勧めします
+コマンドの高さも変更したい場合は [MZ用コマンド行間設定プラグイン](https://github.com/nolimits-tukool/NLM_CommandHeightMZ) の併用をお勧めします  
+（HDLayout.js を同時併用する場合は、本プラグインより上に配置して下さい）
 
 
 # download
