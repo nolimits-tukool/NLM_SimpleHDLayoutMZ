@@ -13,11 +13,11 @@
 
 ![HDメニュー](img/HDMenu.png)
 
+![HDステータス](img/HDStatus.png)
+
 ![HDメニュー２](img/HDMenu2.png)
 
 ![HDカード](img/HDCard.png)
-
-![HDステータス](img/HDStatus.png)
 
 ### また、単独で以下の機能を持ち、HDLayout.jsと同時併用でも機能を追加できます
 
