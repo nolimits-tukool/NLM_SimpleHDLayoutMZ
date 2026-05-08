@@ -7,11 +7,12 @@
 ----------------------------------------------------------------------------
  Version
  1.0.0  2026/03/10　初稿
+ 1.1.0  2026/05/08  セーブリストのカーソル初期位置がずれる問題に対処
 ============================================================================*/
 
 /*:
  * @target MZ
- * @plugindesc シンプルなHDレイアウト・プラグイン (v1.0.0)
+ * @plugindesc シンプルなHDレイアウト・プラグイン (v1.1.0)
  * @author ノリミツ (NoLimits)
  * @url https://github.com/nolimits-tukool
  * 
@@ -825,6 +826,12 @@
 
     Window_SavefileList.prototype.maxItems = function() {
       return DataManager.maxSavefiles();
+    };
+
+    const _WSFL_selectSavefile = Window_SavefileList.prototype.selectSavefile;
+    Window_SavefileList.prototype.selectSavefile = function(savefileId) { // v1.1.0で追加修正
+      _WSFL_selectSavefile.apply(this, arguments);
+      this.setTopRow(this.row() - 2);
     };
 
     const _WSFL_drawContents = Window_SavefileList.prototype.drawContents;
