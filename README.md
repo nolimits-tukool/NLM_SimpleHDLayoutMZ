@@ -35,7 +35,8 @@
 
 
 # download
-現在のバージョン： v1.1.0 (2026/05/08)　（SaveList初期カーソルずれ修正）
+現在のバージョン： v1.1.1 (2026/06/09)  
+（アイテム・スキルからの選択が顔画像のみになる時があるのを修正）
 
 プラグインの download は、[右クリック「名前を付けてリンク先を保存」](https://raw.githubusercontent.com/nolimits-tukool/NLM_SimpleHDLayoutMZ/refs/heads/main/NLM_SimpleHDLayoutMZ.js)  
 
