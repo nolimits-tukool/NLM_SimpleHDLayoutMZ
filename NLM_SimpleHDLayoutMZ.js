@@ -8,11 +8,12 @@
  Version
  1.0.0  2026/03/10　初稿
  1.1.0  2026/05/08  セーブリストのカーソル初期位置がずれる問題に対処
+ 1.1.1　2026/06/09　アイテム・スキルからの選択が顔画像のみになる時があるのを修正
 ============================================================================*/
 
 /*:
  * @target MZ
- * @plugindesc シンプルなHDレイアウト・プラグイン (v1.1.0)
+ * @plugindesc シンプルなHDレイアウト・プラグイン (v1.1.1)
  * @author ノリミツ (NoLimits)
  * @url https://github.com/nolimits-tukool
  * 
@@ -411,11 +412,11 @@
     return actor.isBattleMember();
   };
 
-  const _Window_MenuStatus_initialize = Window_MenuStatus.prototype.initialize;
-  Window_MenuStatus.prototype.initialize = function() {
-    _Window_MenuStatus_initialize.apply(this, arguments);
+  const _Window_StatusBase_initialize = Window_StatusBase.prototype.initialize;
+  Window_StatusBase.prototype.initialize = function() {
     this._NLWMimageType = this.NLWMcorrectType(NLWMparam.menuType);
-  };
+    _Window_StatusBase_initialize.apply(this, arguments);
+  }; // v1.1.1でWindow_MenuStatusから変更
 
   const _Window_MenuStatus_drawItem = Window_MenuStatus.prototype.drawItem;
   Window_MenuStatus.prototype.drawItem = function(index) {
