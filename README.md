@@ -39,6 +39,7 @@
 （アイテム・スキルからの選択が顔画像のみになる時があるのを修正）
 
 プラグインの download は、[右クリック「名前を付けてリンク先を保存」](https://raw.githubusercontent.com/nolimits-tukool/NLM_SimpleHDLayoutMZ/refs/heads/main/NLM_SimpleHDLayoutMZ.js)  
+RPGツクールMZ専用です
 
 Windows11の[「スマートアプリコントロール」でブロックされる場合](https://github.com/nolimits-tukool/HandlingSmartAppControl)
 
